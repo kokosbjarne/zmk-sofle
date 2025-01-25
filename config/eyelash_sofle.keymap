@@ -50,13 +50,13 @@
     keymap {
         compatible = "zmk,keymap";
 
-        layer0 {
+        macOS-base {
             bindings = <
-&none                       &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_GUI  &kp TAB        &kp UP_ARROW     &kp TAB        &kp RIGHT_GUI  &kp RIGHT_SHIFT  &kp RCTRL  &kp RIGHT_ALT  &none
-&kp LA(LC(LG(LEFT_SHIFT)))  &kp F         &kp P      &kp D           &kp L         &kp X          &kp DOWN_ARROW   &kp SEMICOLON  &kp U          &kp O            &kp Y      &kp Q          &none
-&to 4                       &kp S         &kp N      &kp T           &kp H         &kp K          &kp K_PREVIOUS   &kp COMMA      &kp A          &kp E            &kp I      &kp C          &to 4
-&kp LA(LC(LSHFT))           &kp V         &kp W      &kp G           &kp M         &kp J          &kp RIGHT_ARROW  &kp MINUS      &kp PERIOD     &kp SQT          &kp EQUAL  &kp FSLH       &none
-&kp C_MUTE                  &none         &kp Z      &kp R           &kp SPACE     &lt 3 ENTER    &kp ENTER        &lt 3 ESCAPE   &kp BACKSPACE  &kp B            &kp GRAVE  &kp BACKSLASH
+&none                       &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_GUI  &kp TAB        &kp C_PLAY            &kp TAB        &kp RIGHT_GUI  &kp RIGHT_SHIFT  &kp RCTRL  &kp RIGHT_ALT  &none
+&kp LA(LC(LG(LEFT_SHIFT)))  &kp F         &kp P      &kp D           &kp L         &kp X          &kp LS(LG(NUMBER_2))  &kp SEMICOLON  &kp U          &kp O            &kp Y      &kp Q          &none
+&to 4                       &kp S         &kp N      &kp T           &kp H         &kp K          &kp C_PREVIOUS        &kp COMMA      &kp A          &kp E            &kp I      &kp C          &to 4
+&kp LA(LC(LSHFT))           &kp V         &kp W      &kp G           &kp M         &kp J          &kp C_NEXT            &kp MINUS      &kp PERIOD     &kp SQT          &kp EQUAL  &kp FSLH       &none
+&kp C_MUTE                  &none         &kp Z      &kp R           &kp SPACE     &lt 3 ENTER    &none                 &lt 3 ESCAPE   &kp BACKSPACE  &kp B            &kp GRAVE  &kp BACKSLASH
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
