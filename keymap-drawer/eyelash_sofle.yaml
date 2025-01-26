@@ -1,5 +1,5 @@
 layers:
-  macOS-base:
+  mac-base:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
@@ -123,7 +123,7 @@ layers:
   - R
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', h: SP&Fn}
-  - {t: macOS-base, h: toggle}
+  - {t: mac-base, h: toggle}
   - {t: '$$mdi:keyboard-esc$$', h: SP&Fn}
   - {t: '$$mdi:backspace$$', type: backspace}
   - B
@@ -266,7 +266,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - RGB BRI
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -279,7 +279,7 @@ layers:
   - $$mdi:arrow-up-bold$$
   - '"'
   - '{'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - RGB BRD
   - '}'
   - F9
   - F10
