@@ -57,7 +57,7 @@
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
-            display-name = "macOS-base";
+            display-name = "mac-base";
         };
 
         layer_1 {
@@ -95,8 +95,8 @@
 
         layer_4 {
             bindings = <
-&none  &none  &none     &none         &none              &none                   &none            &none                  &none   &none    &none    &none    &none
-&none  &none  &none     &kp UP_ARROW  &kp DOUBLE_QUOTES  &kp LEFT_BRACE          &none            &kp RIGHT_BRACE        &kp F9  &kp F10  &kp F11  &kp F12  &none
+&none  &none  &none     &none         &none              &none                   &rgb_ug RGB_BRI  &none                  &none   &none    &none    &none    &none
+&none  &none  &none     &kp UP_ARROW  &kp DOUBLE_QUOTES  &kp LEFT_BRACE          &rgb_ug RGB_BRD  &kp RIGHT_BRACE        &kp F9  &kp F10  &kp F11  &kp F12  &none
 &none  &none  &kp LEFT  &kp DOWN      &kp RIGHT          &kp LEFT_PARENTHESIS    &bt BT_PRV       &kp RIGHT_PARENTHESIS  &kp F5  &kp F6   &kp F7   &kp F8   &none
 &none  &none  &none     &none         &none              &kp LEFT_BRACKET        &bt BT_NXT       &kp RIGHT_BRACKET      &kp F1  &kp F2   &kp F3   &kp F4   &none
 &none  &none  &none     &none         &none              &none                   &rgb_ug RGB_TOG  &none                  &none   &none    &none    &none
