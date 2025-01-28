@@ -129,7 +129,7 @@
             >;
 
             label = "number";
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
         };
     };
 };
