@@ -331,7 +331,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:keyboard-tab$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Sft+4
@@ -344,7 +344,7 @@ layers:
   - KP 8
   - KP 9
   - {t: Sft+/, s: 'Sft+?'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: Sft+5, s: Sft+%}
   - KP 7
   - KP 8
@@ -357,7 +357,7 @@ layers:
   - KP 5
   - KP 6
   - Sft+1
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - {t: Sft+7, s: Sft+&}
   - KP 4
   - KP 5
@@ -370,7 +370,7 @@ layers:
   - KP 2
   - KP 3
   - Sft+2
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - Sft+3
   - KP 1
   - KP 2
@@ -383,7 +383,7 @@ layers:
   - KP DOT
   - $$mdi:keyboard-space$$
   - RETURN
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&mkp MB1'
   - $$mdi:keyboard-esc$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - KP 0
