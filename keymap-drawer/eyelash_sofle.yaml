@@ -78,7 +78,7 @@ layers:
   - RIGHT GUI
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Alt+Ctl+Gui+$$mdi:apple-keyboard-shift$$
+  - Alt+Ctl+$$mdi:apple-keyboard-shift$$
   - F
   - P
   - D
@@ -104,7 +104,7 @@ layers:
   - I
   - C
   - number
-  - Alt+Ctl+$$mdi:apple-keyboard-shift$$
+  - Alt+Sft+$$mdi:apple-keyboard-shift$$
   - V
   - W
   - G
