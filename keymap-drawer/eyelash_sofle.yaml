@@ -104,7 +104,7 @@ layers:
   - I
   - C
   - number
-  - Alt+Sft+$$mdi:apple-keyboard-shift$$
+  - Sft+$$mdi:apple-keyboard-option$$
   - V
   - W
   - G
@@ -338,7 +338,7 @@ layers:
   - Sft+6
   - {t: /, s: '?'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Sft+Ctl+$$mdi:apple-keyboard-option$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - KP 7
   - KP 8
@@ -364,7 +364,7 @@ layers:
   - KP 6
   - {t: '-', s: _}
   - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Sft+$$mdi:apple-keyboard-option$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - KP 1
   - KP 2
@@ -378,9 +378,9 @@ layers:
   - +
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - KP 0
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - KP DOT
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - KP 0
   - $$mdi:keyboard-space$$
   - RETURN
   - {t: '$$mdi:minus-circle-outline$$', type: none}
