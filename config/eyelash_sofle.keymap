@@ -122,7 +122,7 @@
 &kp C_MUTE  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp SPACE     &lt 2 ENTER    &mkp LCLK        &to 0         &kp BACKSPACE  &kp B      &kp GRAVE   &kp BACKSLASH
             >;
 
-            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
         };
 
         bt {
