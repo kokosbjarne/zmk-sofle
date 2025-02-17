@@ -65,7 +65,7 @@
 
         layer_0 {
             bindings = <
-&kp GRAVE   &kp LEFT_ALT  &kp LCTRL     &kp LEFT_SHIFT  &kp LEFT_GUI  &kp TAB        &mmv MOVE_UP     &kp TAB        &kp RIGHT_GUI  &kp RIGHT_SHIFT  &kp RCTRL  &kp RIGHT_ALT  &none
+&kp GRAVE   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &kp NUMBER_4  &kp N5         &mmv MOVE_UP     &kp TAB        &kp RIGHT_GUI  &kp RIGHT_SHIFT  &kp RCTRL  &kp RIGHT_ALT  &none
 &kp ESCAPE  &kp Q         &kp W         &kp E           &kp R         &kp T          &mmv MOVE_DOWN   &kp SEMICOLON  &kp U          &kp O            &kp Y      &kp Q          &none
 &kp TAB     &kp A         &kp S         &kp D           &kp F         &kp G          &mmv MOVE_LEFT   &kp COMMA      &kp A          &kp E            &kp I      &kp C          &mo 5
 &kp LCTRL   &kp Z         &kp X         &kp C           &kp V         &kp B          &mmv MOVE_RIGHT  &kp MINUS      &kp PERIOD     &kp SQT          &kp EQUAL  &kp FSLH       &none
