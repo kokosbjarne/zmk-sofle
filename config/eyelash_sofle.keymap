@@ -96,6 +96,7 @@
             >;
 
             label = "SP&Fn";
+            sensor-bindings = <&inc_dec_kp K_VOLUME_UP K_VOLUME_DOWN>;
         };
 
         num {
