@@ -65,14 +65,14 @@
 
         layer_0 {
             bindings = <
-&none                       &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_GUI             &kp TAB        &mmv MOVE_UP     &kp TAB        &kp RIGHT_GUI  &kp RIGHT_SHIFT  &kp RCTRL  &kp RIGHT_ALT  &none
-&kp LA(LC(LG(LEFT_SHIFT)))  &kp F         &kp P      &kp D           &kp L                    &kp X          &mmv MOVE_DOWN   &kp SEMICOLON  &kp U          &kp O            &kp Y      &kp Q          &none
-&mo 5                       &kp S         &kp N      &kp D           &kp F                    &kp K          &mmv MOVE_LEFT   &kp COMMA      &kp A          &kp E            &kp I      &kp C          &mo 5
-&kp LA(LC(LSHFT))           &kp V         &kp W      &kp G           &kp M                    &kp J          &mmv MOVE_RIGHT  &kp MINUS      &kp PERIOD     &kp SQT          &kp EQUAL  &kp FSLH       &none
-&kp C_MUTE                  &none         &kp Z      &kp R           &SandS LEFT_SHIFT SPACE  &lt 4 ENTER    &mkp LCLK        &lt 4 ESCAPE   &kp BACKSPACE  &kp B            &kp GRAVE  &kp BACKSLASH
+&kp GRAVE   &kp LEFT_ALT  &kp LCTRL     &kp LEFT_SHIFT  &kp LEFT_GUI  &kp TAB        &mmv MOVE_UP     &kp TAB        &kp RIGHT_GUI  &kp RIGHT_SHIFT  &kp RCTRL  &kp RIGHT_ALT  &none
+&kp ESCAPE  &kp Q         &kp W         &kp E           &kp R         &kp T          &mmv MOVE_DOWN   &kp SEMICOLON  &kp U          &kp O            &kp Y      &kp Q          &none
+&kp TAB     &kp A         &kp S         &kp D           &kp F         &kp G          &mmv MOVE_LEFT   &kp COMMA      &kp A          &kp E            &kp I      &kp C          &mo 5
+&kp LCTRL   &kp Z         &kp X         &kp C           &kp V         &kp B          &mmv MOVE_RIGHT  &kp MINUS      &kp PERIOD     &kp SQT          &kp EQUAL  &kp FSLH       &none
+&kp C_MUTE  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp SPACE     &lt 4 ENTER    &mkp LCLK        &lt 4 ESCAPE   &kp BACKSPACE  &kp B            &kp GRAVE  &kp BACKSLASH
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
             display-name = "mac-base";
         };
 
