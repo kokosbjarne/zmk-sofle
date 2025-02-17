@@ -84,19 +84,21 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp NON_US_BACKSLASH  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans     &trans                &trans                 &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp UP_ARROW DOWN>;
         };
 
         nav {
             bindings = <
-&none            &none  &none       &none         &none          &none                   &rgb_ug RGB_HUD  &none                  &none            &none    &none    &none    &none
-&none            &none  &kp K_BACK  &kp UP_ARROW  &kp K_FORWARD  &kp LEFT_BRACE          &bt BT_CLR       &kp RIGHT_BRACE        &kp F9           &kp F10  &kp F11  &kp F12  &none
-&none            &none  &kp LEFT    &kp DOWN      &kp RIGHT      &kp LEFT_PARENTHESIS    &bt BT_PRV       &kp RIGHT_PARENTHESIS  &kp F5           &kp F6   &kp F7   &kp F8   &none
-&none            &none  &none       &none         &none          &kp LEFT_BRACKET        &bt BT_NXT       &kp RIGHT_BRACKET      &kp F1           &kp F2   &kp F3   &kp F4   &none
-&kp LG(LS(F14))  &none  &none       &none         &none          &none                   &rgb_ug RGB_TOG  &none                  &lt 3 BACKSPACE  &none    &none    &none
+&none            &none  &none         &none         &none          &none                   &rgb_ug RGB_HUD  &none                  &none            &none     &none    &none    &none
+&none            &none  &kp LA(LEFT)  &kp UP_ARROW  &kp RA(RIGHT)  &kp LEFT_BRACE          &bt BT_CLR       &kp RIGHT_BRACE        &kp F9           &kp HOME  &kp F11  &kp F12  &none
+&none            &none  &kp LEFT      &kp DOWN      &kp RIGHT      &kp LEFT_PARENTHESIS    &bt BT_PRV       &kp RIGHT_PARENTHESIS  &kp F5           &kp END   &kp F7   &kp F8   &none
+&none            &none  &none         &none         &none          &kp LEFT_BRACKET        &bt BT_NXT       &kp RIGHT_BRACKET      &kp F1           &kp F2    &kp F3   &kp F4   &none
+&kp LG(LS(F14))  &none  &none         &none         &none          &none                   &rgb_ug RGB_TOG  &none                  &lt 3 BACKSPACE  &none     &none    &none
             >;
 
             label = "SP&Fn";
-            sensor-bindings = <&inc_dec_kp K_VOLUME_UP K_VOLUME_DOWN>;
+            sensor-bindings = <&inc_dec_kp LA(UP_ARROW) LA(DOWN_ARROW)>;
         };
 
         num {
