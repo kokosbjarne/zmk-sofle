@@ -78,11 +78,11 @@
 
         tab-symbols {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans     &trans                &trans                 &trans                &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp GRAVE  &kp EQUAL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS             &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans     &trans                &trans                 &kp SQT               &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp NON_US_BACKSLASH  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans     &trans                &trans                 &trans
             >;
         };
 
