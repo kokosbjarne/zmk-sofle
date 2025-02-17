@@ -72,7 +72,7 @@
 &kp C_MUTE  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_SHIFT  &lt 2 SPACE   &lt 4 ENTER    &mkp LCLK        &to 3         &kp BACKSPACE  &kp RIGHT_CONTROL  &kp GRAVE   &kp BACKSLASH
             >;
 
-            sensor-bindings = <&inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
+            sensor-bindings = <&inc_dec_kp DOWN_ARROW UP_ARROW>;
             display-name = "win-base";
         };
 
@@ -85,7 +85,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans     &trans                &trans                 &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp UP_ARROW DOWN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         nav {
