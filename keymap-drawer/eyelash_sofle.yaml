@@ -154,7 +154,7 @@ layers:
   - HOME
   - '&mmv MOVE_Y(100)'
   - END
-  - F12
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -167,7 +167,7 @@ layers:
   - '&mmv MOVE_X(-100)'
   - '&mmv MOVE_Y(-100)'
   - '&mmv MOVE_X(100)'
-  - F8
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -177,10 +177,10 @@ layers:
   - {t: '[', s: '{'}
   - '&mmv MOVE_X(100)'
   - {t: ']', s: '}'}
-  - F1
-  - F2
-  - F3
-  - F4
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Gui+Sft+F14
   - {t: '$$mdi:minus-circle-outline$$', type: none}
