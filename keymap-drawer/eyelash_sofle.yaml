@@ -251,8 +251,8 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', h: SP&Fn}
+  - {t: '$$mdi:keyboard-space$$', h: SP&Fn}
+  - {t: '$$mdi:keyboard-return$$', h: bt}
   - $$mdi:mouse-left-click-outline$$
   - {t: win-base, h: toggle}
   - {t: '$$mdi:backspace$$', type: backspace}
