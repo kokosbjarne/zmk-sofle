@@ -89,10 +89,10 @@
 
         nav {
             bindings = <
-&none            &none  &none         &none         &none          &none                   &mmv MOVE_Y(100)   &none                  &none              &none              &none             &none    &none
-&none            &none  &kp LA(LEFT)  &kp UP_ARROW  &kp RA(RIGHT)  &kp LEFT_BRACE          &mmv MOVE_Y(-100)  &kp RIGHT_BRACE        &kp HOME           &mmv MOVE_Y(100)   &kp END           &kp F12  &none
-&none            &none  &kp LEFT      &kp DOWN      &kp RIGHT      &kp LEFT_PARENTHESIS    &mmv MOVE_X(-100)  &kp RIGHT_PARENTHESIS  &mmv MOVE_X(-100)  &mmv MOVE_Y(-100)  &mmv MOVE_X(100)  &kp F8   &none
-&none            &none  &none         &none         &none          &kp LEFT_BRACKET        &mmv MOVE_X(100)   &kp RIGHT_BRACKET      &kp F1             &kp F2             &kp F3            &kp F4   &none
+&none            &none  &none         &none         &none          &none                   &mmv MOVE_Y(100)   &none                  &none              &none              &none             &none   &none
+&none            &none  &kp LA(LEFT)  &kp UP_ARROW  &kp RA(RIGHT)  &kp LEFT_BRACE          &mmv MOVE_Y(-100)  &kp RIGHT_BRACE        &kp HOME           &mmv MOVE_Y(100)   &kp END           &trans  &none
+&none            &none  &kp LEFT      &kp DOWN      &kp RIGHT      &kp LEFT_PARENTHESIS    &mmv MOVE_X(-100)  &kp RIGHT_PARENTHESIS  &mmv MOVE_X(-100)  &mmv MOVE_Y(-100)  &mmv MOVE_X(100)  &trans  &none
+&none            &none  &none         &none         &none          &kp LEFT_BRACKET        &mmv MOVE_X(100)   &kp RIGHT_BRACKET      &trans             &trans             &trans            &trans  &none
 &kp LG(LS(F14))  &none  &none         &none         &none          &none                   &trans             &none                  &lt 5 BACKSPACE    &none              &none             &none
             >;
 
