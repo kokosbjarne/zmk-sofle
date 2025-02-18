@@ -146,14 +146,14 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Alt+$$mdi:arrow-left-bold$$
-  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  - $$mdi:arrow-up-bold$$
   - AltGr+$$mdi:arrow-right-bold$$
   - '{'
   - '&mmv MOVE_Y(-100)'
   - '}'
-  - F9
-  - F10
-  - F11
+  - HOME
+  - '&mmv MOVE_Y(100)'
+  - END
   - F12
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -164,9 +164,9 @@ layers:
   - (
   - '&mmv MOVE_X(-100)'
   - )
-  - F5
-  - END
-  - F7
+  - '&mmv MOVE_X(-100)'
+  - '&mmv MOVE_Y(-100)'
+  - '&mmv MOVE_X(100)'
   - F8
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -188,7 +188,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - RGB TOG
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:backspace$$', h: number, type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
