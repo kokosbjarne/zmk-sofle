@@ -60,7 +60,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: SP&Fn}
   - {t: win-base, h: toggle}
   - {t: '$$mdi:keyboard-esc$$', h: SP&Fn}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-shift$$'}
   - B
   - {t: '`', s: '~'}
   - {t: \, s: '|'}
@@ -125,7 +125,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: SP&Fn}
   - {t: mac-base, h: toggle}
   - {t: '$$mdi:keyboard-esc$$', h: SP&Fn}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-shift$$'}
   - B
   - {t: '`', s: '~'}
   - {t: \, s: '|'}
