@@ -12,7 +12,7 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:backspace-reverse-outline$$
   - Alt+Ctl+Gui+$$mdi:apple-keyboard-shift$$
   - F
   - P
@@ -77,7 +77,7 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - RIGHT GUI
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:backspace-reverse-outline$$
   - Alt+Ctl+$$mdi:apple-keyboard-shift$$
   - F
   - P
