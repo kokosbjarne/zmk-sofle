@@ -89,11 +89,11 @@
 
         nav {
             bindings = <
-&none            &none  &none         &none         &none          &none                   &mmv MOVE_Y(-100)  &none                  &none              &none              &none             &none   &none
-&none            &none  &kp LA(LEFT)  &kp UP_ARROW  &kp RA(RIGHT)  &kp LEFT_BRACE          &mmv MOVE_Y(100)   &kp RIGHT_BRACE        &kp HOME           &mmv MOVE_Y(-500)  &kp END           &trans  &none
-&none            &none  &kp LEFT      &kp DOWN      &kp RIGHT      &kp LEFT_PARENTHESIS    &mmv MOVE_X(-100)  &kp RIGHT_PARENTHESIS  &mmv MOVE_X(-500)  &mmv MOVE_Y(500)   &mmv MOVE_X(500)  &trans  &none
-&none            &none  &none         &none         &none          &kp LEFT_BRACKET        &mmv MOVE_X(100)   &kp RIGHT_BRACKET      &mkp LCLK          &trans             &mkp RCLK         &trans  &none
-&kp LG(LS(F14))  &none  &none         &none         &none          &none                   &trans             &none                  &lt 4 BACKSPACE    &none              &none             &none
+&none   &none  &none         &none         &none          &none                   &mmv MOVE_UP     &none                  &none              &none              &none             &none   &none
+&none   &none  &kp LA(LEFT)  &kp UP_ARROW  &kp RA(RIGHT)  &kp LEFT_BRACE          &mmv MOVE_DOWN   &kp RIGHT_BRACE        &kp HOME           &mmv MOVE_Y(-500)  &kp END           &trans  &none
+&none   &none  &kp LEFT      &kp DOWN      &kp RIGHT      &kp LEFT_PARENTHESIS    &mmv MOVE_LEFT   &kp RIGHT_PARENTHESIS  &mmv MOVE_X(-500)  &mmv MOVE_Y(500)   &mmv MOVE_X(500)  &trans  &none
+&none   &none  &none         &none         &none          &kp LEFT_BRACKET        &mmv MOVE_RIGHT  &kp RIGHT_BRACKET      &mkp LCLK          &trans             &mkp RCLK         &trans  &none
+&trans  &none  &none         &none         &none          &none                   &trans           &none                  &lt 4 BACKSPACE    &none              &none             &none
             >;
 
             label = "SP&Fn";
