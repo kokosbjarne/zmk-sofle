@@ -19,7 +19,7 @@ layers:
   - E
   - R
   - T
-  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - '&mmv MOVE_Y(600)'
   - Y
   - U
   - I
