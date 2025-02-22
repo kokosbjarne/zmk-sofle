@@ -60,7 +60,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: bt}
   - $$mdi:mouse-left-click-outline$$
   - {t: android-base, h: toggle}
-  - {t: '$$mdi:keyboard-space$$', h: SP&Fn}
+  - {t: '$$mdi:backspace$$', h: SP&Fn}
   - $$mdi:apple-keyboard-control$$
   - {t: '`', s: '~'}
   - {t: \, s: '|'}
