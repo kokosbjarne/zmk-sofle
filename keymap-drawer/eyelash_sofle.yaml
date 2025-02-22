@@ -45,7 +45,7 @@ layers:
   - C
   - V
   - B
-  - '&mmv MOVE_Y(600)'
+  - '&mmv MOVE_X(600)'
   - N
   - M
   - {t: ',', s: <}
