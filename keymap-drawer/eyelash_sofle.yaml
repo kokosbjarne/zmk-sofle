@@ -136,7 +136,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&mmv MOVE_Y(-100)'
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -149,7 +149,7 @@ layers:
   - $$mdi:arrow-up-bold$$
   - AltGr+$$mdi:arrow-right-bold$$
   - '{'
-  - '&mmv MOVE_Y(100)'
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - '}'
   - HOME
   - '&mmv MOVE_Y(-500)'
@@ -162,7 +162,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - (
-  - '&mmv MOVE_X(-100)'
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - )
   - '&mmv MOVE_X(-500)'
   - '&mmv MOVE_Y(500)'
@@ -175,14 +175,14 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '[', s: '{'}
-  - '&mmv MOVE_X(100)'
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: ']', s: '}'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Gui+Sft+F14
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
