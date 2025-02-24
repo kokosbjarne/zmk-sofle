@@ -13,7 +13,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:backspace-reverse-outline$$
-  - Alt+Ctl+Gui+$$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F
   - P
   - D
@@ -51,7 +51,7 @@ layers:
   - {t: '''', s: '"'}
   - {t: '=', s: +}
   - {t: /, s: '?'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Ctl+AltGr+$$mdi:apple-keyboard-shift$$
   - $$mdi:volume-off$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Z
@@ -78,7 +78,7 @@ layers:
   - RIGHT GUI
   - $$mdi:apple-keyboard-option$$
   - $$mdi:backspace-reverse-outline$$
-  - Alt+Ctl+$$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F
   - P
   - D
@@ -104,7 +104,7 @@ layers:
   - I
   - C
   - number
-  - Sft+$$mdi:apple-keyboard-option$$
+  - Alt+Ctl+$$mdi:apple-keyboard-shift$$
   - V
   - W
   - G
@@ -116,7 +116,7 @@ layers:
   - {t: '''', s: '"'}
   - {t: '=', s: +}
   - {t: /, s: '?'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - AltGr+Ctl+$$mdi:apple-keyboard-shift$$
   - $$mdi:volume-off$$
   - '&mkp MB1'
   - Z
