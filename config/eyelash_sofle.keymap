@@ -63,12 +63,18 @@
         compatible = "zmk,keymap";
 
         layer_0 {
+// ------------------------------------------------------------------------------------------------------------
+// |  ESC  |  1  |  2  |  3   |  4   |  5   |                   |  6   |  7    |  8    |  9   |   0   | BKSPC |
+// |  TAB  |  Q  |  W  |  E   |  R   |  T   |                   |  Y   |  U    |  I    |  O   |   P   |   Å   |
+// | SHIFT |  A  |  S  |  D   |  F   |  G   |                   |  H   |  J    |  K    |  L   |   Ö   |   Ä   |
+// | LCTRL |  Z  |  X  |  C   |  V   |  B   |  MUTE  |  |       |  N   |  M    |  ,    |  .   |   /   | SHIFT |
+//               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
             bindings = <
-&none              &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_GUI             &kp TAB        &kp C_PLAY            &kp TAB        &kp RIGHT_GUI                 &kp RIGHT_SHIFT  &kp RCTRL  &kp RIGHT_ALT  &kp DELETE
-&none              &kp F         &kp P      &kp D           &kp L                    &kp X          &kp LS(LG(NUMBER_2))  &kp SEMICOLON  &kp U                         &kp O            &kp Y      &kp Q          &none
-&mo 5              &kp S         &kp N      &kp T           &kp H                    &kp K          &kp C_PREVIOUS        &kp COMMA      &kp A                         &kp E            &kp I      &kp C          &mo 5
-&kp LA(LC(LSHFT))  &kp V         &kp W      &kp G           &kp M                    &kp J          &kp C_NEXT            &kp MINUS      &kp PERIOD                    &kp SQT          &kp EQUAL  &kp FSLH       &kp RC(RA(RIGHT_SHIFT))
-&kp C_MUTE         &none         &kp Z      &kp R           &SandS LEFT_SHIFT SPACE  &lt 4 ENTER    &to 1                 &lt 4 ESCAPE   &SandS RIGHT_SHIFT BACKSPACE  &kp B            &kp GRAVE  &kp BACKSLASH
+&kp ESCAPE         &kp 1  	 &kp 2	    &kp 3           &kp 4                    &kp 5          &none            &kp 6          &kp 7                 	  &kp 8            &kp 9      &kp 9          &kp BACKSPACE
+&kp TAB            &kp Q         &kp W      &kp E           &kp R                    &kp T          &none            &kp Y          &kp U                         &kp I            &kp O      &kp P          &kp LBKT
+&kp LSHIFT         &kp A         &kp S      &kp D           &kp F                    &kp G          &none            &kp H          &kp J                         &kp K            &kp L      &kp SEMI       &kp SQT
+&kp LA(LC(LSHFT))  &kp Z         &kp X      &kp C           &kp V                    &kp B          &none            &kp N          &kp M                    	  &kp COMMA        &kp PERIOD &kp MINUS      &kp RC(RA(RIGHT_SHIFT))
+&kp LEFT_GUI       &kp LEFT_ALT  &kp CTRL   &mo 1           &lt ENTER     &SandS LEFT_SHIFT SPACE	&mo2        &CTRL   	&kp RIGHT_ALT  		  &kp RIGHT_GUI      &none  &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -132,6 +138,6 @@
 
             label = "number";
             sensor-bindings = <&scroll_encoder>;
-        };
+        } ;
     };
 };
