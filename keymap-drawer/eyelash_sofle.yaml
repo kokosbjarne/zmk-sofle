@@ -1,69 +1,69 @@
 layers:
   mac-base:
+  - $$mdi:keyboard-esc$$
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-command$$
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '9'
+  - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
-  - PLAY
-  - $$mdi:keyboard-tab$$
-  - RIGHT GUI
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - F
-  - P
-  - D
-  - L
-  - X
-  - Sft+Gui+2
-  - {t: ;, s: ':'}
-  - U
-  - O
-  - Y
   - Q
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - number
-  - S
-  - N
-  - T
-  - H
-  - K
-  - PREVIOUS
-  - {t: ',', s: <}
-  - A
-  - E
-  - I
-  - C
-  - number
-  - Alt+Ctl+$$mdi:apple-keyboard-shift$$
-  - V
   - W
-  - G
-  - M
-  - J
-  - $$mdi:skip-next$$
-  - {t: '-', s: _}
-  - .
-  - {t: '''', s: '"'}
-  - {t: '=', s: +}
-  - {t: /, s: '?'}
-  - Ctl+AltGr+$$mdi:apple-keyboard-shift$$
-  - $$mdi:volume-off$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Z
+  - E
   - R
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '$$mdi:keyboard-return$$', h: SP&Fn}
-  - {t: win-base, h: toggle}
-  - {t: '$$mdi:keyboard-esc$$', h: SP&Fn}
-  - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - T
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: '[', s: '{'}
+  - $$mdi:apple-keyboard-shift$$
+  - A
+  - S
+  - D
+  - F
+  - G
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - H
+  - J
+  - K
+  - L
+  - {t: ;, s: ':'}
+  - {t: '''', s: '"'}
+  - Alt+Ctl+$$mdi:apple-keyboard-shift$$
+  - Z
+  - X
+  - C
+  - V
   - B
-  - {t: '`', s: '~'}
-  - {t: \, s: '|'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - N
+  - M
+  - {t: ',', s: <}
+  - .
+  - {t: '-', s: _}
+  - Ctl+AltGr+$$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-option$$
+  - CTRL
+  - win-base
+  - '&lt ENTER'
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - '&mo2'
+  - '&CTRL'
+  - $$mdi:apple-keyboard-option$$
+  - RIGHT GUI
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   win-base:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-option$$
@@ -120,7 +120,7 @@ layers:
   - $$mdi:volume-off$$
   - '&mkp MB1'
   - Z
-  - R
+  - {t: R, type: held}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-return$$', h: SP&Fn}
   - {t: mac-base, h: toggle}
@@ -315,7 +315,7 @@ layers:
   - Gui+Sft+F14
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - RGB TOG
@@ -380,7 +380,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - KP 0
+  - {t: KP 0, type: held}
   - $$mdi:keyboard-space$$
   - RETURN
   - {t: '$$mdi:minus-circle-outline$$', type: none}
